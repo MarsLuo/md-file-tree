@@ -1,4 +1,4 @@
-# md-file-tree for fork from [@michalbe](http://github.com/michalbe)
+# md-file-tree fork from [@michalbe](http://github.com/michalbe)
 
 Generate markdown tree of all the files in a directory, recursively.
 
