@@ -36,7 +36,7 @@ const main = () => {
             const data = result[key];
             if (typeof data === 'string' && key[0] !== '.' ) {
 
-                if (ignoreType("png", key)) {
+                if (ignoreType("png", key) || ignoreType("jpg", key) || ignoreType("jpeg", key)) {
                     return
                 }
 
