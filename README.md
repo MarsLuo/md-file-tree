@@ -1,4 +1,4 @@
-# md-file-tree by [@michalbe](http://github.com/michalbe)
+# md-file-tree for from by [@michalbe](http://github.com/michalbe)
 
 Generate markdown tree of all the files in a directory, recursively.
 
@@ -6,8 +6,26 @@ Generate markdown tree of all the files in a directory, recursively.
 
 ### Install the script
 
+At frist, please remove your local md-file-tree. 
+
 ```bash
-$ npm install md-file-tree -g
+$ sudo npm uninstall md-file-tree -g
+```
+
+and then.
+
+```bash
+$ sudo npm install marsluo/md-file-tree#master -g
+```
+
+If you want use local version.
+```bash
+$ sudo npm install marsluo/md-file-tree#master -g
+```
+
+If you want update local version.
+```bash
+$ sudo npm update marsluo/md-file-tree#master -g
 ```
 
 ### Run the tree script in any directory
