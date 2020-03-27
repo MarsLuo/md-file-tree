@@ -20,13 +20,15 @@ $ sudo npm install marsluo/md-file-tree#master -g
 
 If you want use local version.
 ```bash
-$ sudo npm install marsluo/md-file-tree#master -g
+$ sudo npm install yourPath/md-file-tree#master -g
 ```
 
 If you want update local version.
 ```bash
-$ sudo npm update marsluo/md-file-tree#master -g
+$ sudo npm update yourPath/md-file-tree#master -g
 ```
+
+your path just like: './', 'someFolder/'
 
 ### Run the tree script in any directory
 
