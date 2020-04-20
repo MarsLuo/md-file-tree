@@ -43,6 +43,12 @@ $ md-file-tree --emoji
 $ md-file-tree -e
 ```
 
+### Enable ignore file type with the command line switch
+
+```bash
+$ md-file-tree -e --ignore 'png, mindnode, jpeg, jpg' > README.md
+```
+
 ### Redirect the output to a file
 
 ```bash
